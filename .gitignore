@@ -1,0 +1,17 @@
+# 忽略目錄
+data/
+output/
+bak/
+.venv/
+temp/
+
+# 忽略特定檔案
+*.log
+*.json
+proj_util_pkg/.DS_Store
+/proj_util_pkg/__pycache__
+/proj_util_pkg/common/__pycache__
+proj_util_pkg/config/.env
+/proj_util_pkg/finlab_api/__pycache__
+/proj_util_pkg/google_api/__pycache__
+.DS_Store
